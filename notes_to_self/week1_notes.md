@@ -22,3 +22,31 @@ SOLID:
   * Liskov Substitution Principle — Objects should be replaceable by their subtypes.
   * Interface Segregation Principle — Interfaces should be client specific rather than general.
   * Dependency Inversion Principle — Depend on abstractions rather than concretions.
+
+
+## Day 2 - 16.04.2020
+
+### Phases of a test
+
+#### Setup
+
+The object under test is being set up:
+
+`user = User.new(password: 'password')`
+
+#### Exercise
+
+The object is executed:
+
+`user.save`
+
+#### Verify
+
+The result of the Exercise is verified against the developer's expectations:
+
+`expect(user.encrypted_password).to be_nil`
+
+#### Teardown
+
+The system under test is reset to its pre-setup state(handled by the language or test framework).
+
