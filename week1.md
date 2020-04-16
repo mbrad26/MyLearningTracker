@@ -17,3 +17,12 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week1_notes.md) to my notes.
    * [Link](to be added) to my skills repository - Calculator 
+
+#### Thursday 16th april 2020
+
+* GOAL:
+  * TDD a simple program
+*PLAN:
+  * Research on TDD, phases of a test
+  * Skills workshops and practicals
+*Evidence:
