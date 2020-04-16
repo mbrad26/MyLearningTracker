@@ -16,7 +16,7 @@
    * Skills workshops
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week1_notes.md) to my notes.
-   * [Link](to be added) to my skills repository - Calculator 
+   * [Link](https://github.com/mbrad26/calculator) to my skills repository - Calculator 
 
 #### Thursday 16th april 2020
 
