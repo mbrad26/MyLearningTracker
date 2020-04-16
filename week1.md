@@ -13,12 +13,9 @@
 
 ##### GOAL:
     * Have a good understanding of OO principles - Encapsulation and SRP
-    
 ##### PLAN:
     * Research on Encapsulation and SRP
     * Skills workshops
-
 ##### EVIDENCE:
     * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week1_notes.md) to my notes.
     * [Link](to be added) to my skills repository - Calculator 
-    
