@@ -22,7 +22,7 @@
 
 * GOAL:
   * TDD a simple program
-*PLAN:
+* PLAN:
   * Research on TDD, phases of a test
   * Skills workshops and practicals
-*Evidence:
+* Evidence:
