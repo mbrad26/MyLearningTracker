@@ -26,3 +26,5 @@
   * Research on TDD, phases of a test
   * Skills workshops and practicals
 * Evidence:
+  * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week1_notes.md) to my notes.
+  * [Link](https://github.com/mbrad26/boris-bikes) to boris-bikes challenge.
