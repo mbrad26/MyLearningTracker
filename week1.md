@@ -34,6 +34,7 @@
 * GOAL:
   * Continue with the previous day's goal.
 * PLAN:
-  * Skills workshops, practicals and TDD a program
+  * Attend 'Intro to TDD' workshop.
+  * Practicals and TDD a program
 * Evidence:
   * [Link](https://github.com/mbrad26/boris-bikes) to boris-bikes challenge.
