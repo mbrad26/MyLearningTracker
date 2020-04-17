@@ -28,3 +28,12 @@
 * Evidence:
   * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week1_notes.md) to my notes.
   * [Link](https://github.com/mbrad26/boris-bikes) to boris-bikes challenge.
+
+#### Friday 17th april 2020
+
+* GOAL:
+  * Continue with the previous day's goal.
+* PLAN:
+  * Skills workshops, practicals and TDD a program
+* Evidence:
+  * [Link](https://github.com/mbrad26/boris-bikes) to boris-bikes challenge.
