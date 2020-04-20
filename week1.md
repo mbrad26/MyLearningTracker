@@ -39,3 +39,6 @@
 * Evidence:
   * [Link](https://github.com/mbrad26/roman_numerals_converter) to a basic Roman Numeral Converter, done by me while attending 'Intro to TDD' workshop.
   * [Link](https://github.com/mbrad26/boris-bikes) to boris-bikes challenge.
+  * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/tic-tac) to behaviour_not_state practical.
+  * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/design_strategies_1) to Test Driving I practical.
+  
