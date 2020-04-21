@@ -11,9 +11,9 @@
 #### Monday 20th april 2020
 
 * GOAL: 
-   * 
+   * Understand dependency injection.
 * PLAN:
-   * 
+   * Go through this week practicals on dependency injection.
    * Skills workshops
 * EVIDENCE:
    * [Link]
