@@ -16,5 +16,7 @@
    * Go through this week practicals on dependency injection.
    * Skills workshops
 * EVIDENCE:
-   * [Link]
-   * [Link]
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/week_2_practicals) to my solutions to the  dependency injection practicals.
+
+
+#### Tuesday 21th april 2020
