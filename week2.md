@@ -29,3 +29,13 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/testing-relationships-between-classes) to my solutions to the Testing OO Relationships.
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/secret-diary) to encapsulation and cohesion practical.
+
+
+   #### Wednesday 22th april 2020
+
+* GOAL: 
+   * Learning by building RSpec.
+* PLAN:
+   * Go through the exercises inside the Learning by building RSpec practical.
+* EVIDENCE:
+   * [Link]() 
