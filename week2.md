@@ -16,7 +16,7 @@
    * Go through this week practicals on dependency injection.
    * Skills workshops
 * EVIDENCE:
-   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/week_2_practicals) to my solutions to the  dependency injection practicals.
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/week_2_practicals) to my solutions to the  dependency injection practicals. Eóin Power reviewed my work and said *'it looks like it's accurately testing the interaction between the classes'*.
 
 
 #### Tuesday 21th april 2020
