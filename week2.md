@@ -20,3 +20,12 @@
 
 
 #### Tuesday 21th april 2020
+
+* GOAL: 
+   * Testing relationships between classes.
+   * Encapsulation and cohesion practical.
+* PLAN:
+   * Go through this week practicals on Testing OO Relationships and on OO Encapsulation and Cohesion practical.
+* EVIDENCE:
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/testing-relationships-between-classes) to my solutions to the Testing OO Relationships.
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/secret-diary) to encapsulation and cohesion practical.
