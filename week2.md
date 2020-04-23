@@ -38,4 +38,13 @@
 * PLAN:
    * Go through the exercises inside the Learning by building RSpec practical.
 * EVIDENCE:
-   * [Link]() 
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/learning-by-building-rspec) to Learning by building RSpec.
+
+    #### Thursday 23rd april 2020
+
+* GOAL: 
+   * 
+* PLAN:
+   * 
+* EVIDENCE:
+   * [Link]()
