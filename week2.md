@@ -44,11 +44,11 @@
     #### Thursday 23rd april 2020
 
 * GOAL: 
-   * 
+   * Refactoring practical.
+   * Domain model diagramming workshop.
 * PLAN:
-   * 
+   * Go through Refactoring practical.
+   * Attend the Domain model diagramming workshop.
 * EVIDENCE:
-   * [Link]()
-=======
-   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/secret-diary) to Encapsulation and Cohesion practical.
->>>>>>> 72a7ec6acf548941ae4424a5788a86e5ac4c1dbb
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/refactoring_exercises) to refactoring practicals.
+
