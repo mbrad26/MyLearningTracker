@@ -16,7 +16,7 @@
    * Go through this week practicals on dependency injection.
    * Skills workshops
 * EVIDENCE:
-   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/week_2_practicals) to my solutions to the  dependency injection practicals.
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/week_2_practicals) to my solutions to the  dependency injection practicals. Eóin Power reviewed my work and said *'it looks like it's accurately testing the interaction between the classes'*.
 
 
 #### Tuesday 21th april 2020
@@ -28,6 +28,7 @@
    * Go through this week practicals on Testing OO Relationships and on OO Encapsulation and Cohesion practical.
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/testing-relationships-between-classes) to my solutions to the Testing OO Relationships.
+<<<<<<< HEAD
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/secret-diary) to encapsulation and cohesion practical.
 
 
@@ -48,3 +49,6 @@
    * 
 * EVIDENCE:
    * [Link]()
+=======
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/secret-diary) to Encapsulation and Cohesion practical.
+>>>>>>> 72a7ec6acf548941ae4424a5788a86e5ac4c1dbb
