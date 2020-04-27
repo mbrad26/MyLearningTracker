@@ -16,4 +16,5 @@
 * PLAN:
    * Research on the web and go through the Servers practical.
 * EVIDENCE:
-   * [Link]() 
+   * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week3_notes.md) to my week3_notes.md
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/servers) to servers practical.
