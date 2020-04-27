@@ -32,7 +32,7 @@
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/secret-diary) to encapsulation and cohesion practical.
 
 
-   #### Wednesday 22th april 2020
+#### Wednesday 22th april 2020
 
 * GOAL: 
    * Learning by building RSpec.
@@ -41,7 +41,7 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/learning-by-building-rspec) to Learning by building RSpec.
 
-    #### Thursday 23rd april 2020
+#### Thursday 23rd april 2020
 
 * GOAL: 
    * Refactoring practical.
@@ -51,4 +51,15 @@
    * Attend the Domain model diagramming workshop.
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/refactoring_exercises) to refactoring practicals.
+
+#### Friday 24th april 2020
+
+* GOAL: 
+   * To do OO Relationships 1 (Forwarding, Polymorphism).
+   * Spend some time in the morning on Oystercard Challenge so I can have a better understending of some of the steps.
+* PLAN:
+   * Try and and solve some of the exercises in OO Relationships 1 (Forwarding, Polymorphism).
+* EVIDENCE:
+   * [Link](https://github.com/mbrad26/tdd-practicals/blob/master/forwarding-polymorphism/forwarding.rb) to OO Relationships 1 (Forwarding, Polymorphism) solution.
+
 
