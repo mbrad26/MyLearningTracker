@@ -44,3 +44,17 @@ Websites can be reached directly via their **IP addresses**. You can find the IP
 #### Packets explained
 
 When data is sent across the web, it is sent as thousands of small chunks, so that many different web users can download the same website at the same time. If websites were sent as single big chunks, only one user could download one at a time.
+
+#### HTTP methods:
+
+HTTP method tells the server what kind of action the user wants to do. We have different HTTP methods. They are **GET** , **POST** , **PUT** , **DELETE** ,**OPTIONS** and **HEAD**. 
+
+Ex:
+
+- view the different types of sofas, we usually use the **GET** method.
+- place an order, we usually use the **POST** method.
+- modify an existing order, we usually use the **PUT** method
+- cancel the order, we usually use the **DELETE** method.
+
+**GET** fetches something without changing anything.
+**POST/PUT** change something on the backend.
