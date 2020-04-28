@@ -18,3 +18,15 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week3_notes.md) to my week3_notes.md
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/servers) to servers practical.
+
+#### Tuesday 28th april 2020
+
+* GOAL: 
+   * Clients practical.
+   * Process Modelling workshop.
+* PLAN:
+   * Go through the Clients practical.
+   * To attend the Process Modelling workshop.
+* EVIDENCE:
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/clients) to Clients practical.
+   * [Link](https://github.com/mbrad26/process-modelling-workshop) to Process Modelling workshop.
