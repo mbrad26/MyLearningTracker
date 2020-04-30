@@ -30,3 +30,14 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/clients) to Clients practical.
    * [Link](https://github.com/mbrad26/process-modelling-workshop) to Process Modelling workshop.
+
+#### Wednesday 29th april 2020
+
+* GOAL: 
+   * HTTP Servers practical
+   * Empathy workshop
+* PLAN:
+   * Go through the HTTP Servers practical
+   * To attend the Empathy workshop
+* EVIDENCE:
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/http-servers) to HTTP Servers practical. 
