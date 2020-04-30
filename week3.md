@@ -34,10 +34,22 @@
 #### Wednesday 29th april 2020
 
 * GOAL: 
-   * HTTP Servers practical
-   * Empathy workshop
+   * HTTP Servers practical.
+   * Empathy workshop.
 * PLAN:
-   * Go through the HTTP Servers practical
-   * To attend the Empathy workshop
+   * Go through the HTTP Servers practical.
+   * To attend the Empathy workshop.
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/http-servers) to HTTP Servers practical. 
+
+#### Thursday 30th april 2020
+
+* GOAL: 
+   * Birthday greeter app.
+   * Debugging Web Apps workshop.
+* PLAN:
+   * Complete the Birthday greeter challenge.
+   * To attend the Debugging Web Apps workshop.
+* EVIDENCE:
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/birthday) to Birthday greeter app. 
+   * [Link](https://github.com/mbrad26/skills-workshops/tree/master/week-3/debugging_2) to my work on Debugging Web Apps workshop.
