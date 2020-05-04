@@ -11,7 +11,7 @@ It stands for “Representational State Transfer”.
 It is a set of rules that developers follow when they create their API. 
 One of these rules states that you should be able to get a piece of data (called a resource) when you link to a specific URL.
 
-### The Anatomy Of A Request
+### **The Anatomy Of A Request**
 
 It’s important to know that a request is made up of four things:
 
@@ -20,7 +20,7 @@ It’s important to know that a request is made up of four things:
 * The headers
 * The data (or body)
 
-### In REST, URLs map onto a *resource*. 
+### **In REST, URLs map onto a *resource*.**
 
 The idea of a *resource* is pretty much the same idea as an object in OOP, 
 it's just a **noun** that matches to something in the real world. 
@@ -37,7 +37,7 @@ Although there's of course much more to REST, understanding that it's all about
 ***resources*/*nouns*** (like restaurants in this example), and ***verbs***
 (POST/GET/PATCH/DELETE) is the main thing you need to understand.
 
-### Routing for a real application
+### **Routing for a real application**
 
 When you want to write a web app, you need a few more routes on top of the basic create, read, update and delete.  You need:
 
