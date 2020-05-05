@@ -15,7 +15,7 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week4_notes.md) to my week4_notes.md
  
- #### Monday 4th may 2020
+ #### Tuesday 5th may 2020
 
 * GOAL: 
    * Entity Relationship Diagrams.
