@@ -15,3 +15,12 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week4_notes.md) to my week4_notes.md
  
+ #### Monday 4th may 2020
+
+* GOAL: 
+   * Entity Relationship Diagrams.
+* PLAN:
+   * Go through Entity Relationship Diagrams practical.
+* EVIDENCE:
+   * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/entity-relationships) to Entity Relationship Diagrams practical.
+ 
