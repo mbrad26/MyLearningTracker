@@ -24,3 +24,22 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/tdd-practicals/tree/master/entity-relationships) to Entity Relationship Diagrams practical.
  
+ #### Wednesday 6th may 2020
+
+* GOAL: 
+   * SQL ZOO
+   * Attend Workshop: Database Domain Modelling
+* PLAN:
+   * SQL ZOO
+   * Workshop: Database Domain Modelling
+* EVIDENCE:
+   * [Link]() 
+
+#### Thursday 7th may 2020
+
+* GOAL: 
+   * Diary app
+* PLAN:
+   * Attempt to finish Diary app.
+* EVIDENCE:
+   * [Link]() 
