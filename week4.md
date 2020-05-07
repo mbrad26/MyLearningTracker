@@ -42,4 +42,4 @@
 * PLAN:
    * Attempt to finish Diary app.
 * EVIDENCE:
-   * [Link]() 
+   * [Link](https://github.com/mbrad26/daily-diary) to Diary app. 
