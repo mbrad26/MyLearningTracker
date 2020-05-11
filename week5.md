@@ -13,5 +13,7 @@
 * PLAN:
    * Research about closures and do the practical on closures.
 * EVIDENCE:
-   * [Link]()
+   * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week5_notes.md) to js closures notes.
+   * [Link](https://github.com/mbrad26/java-script/tree/master/closures) to closures practicals.
+   
  
