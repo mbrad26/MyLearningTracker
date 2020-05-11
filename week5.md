@@ -8,9 +8,10 @@
 #### Monday 11th may 2020
 
 * GOAL: 
-   *
+   * Learn about JS closures.
+   * Closures practical
 * PLAN:
-   *
+   * Research about closures and do the practical on closures.
 * EVIDENCE:
    * [Link]()
  
