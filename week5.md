@@ -15,5 +15,17 @@
 * EVIDENCE:
    * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week5_notes.md) to js closures notes.
    * [Link](https://github.com/mbrad26/java-script/tree/master/closures) to closures practicals.
+
+#### Tuesday 12th may 2020
+
+* GOAL: 
+   * Learn about JS variables and scope.
+   * Js Objects & Prototypes.
+* PLAN:
+   * Research about variables and scope in Js and do the practical on closures.
+* EVIDENCE:
+   * [Link]() to js closures notes.
+   * [Link](https://github.com/mbrad26/java-script/tree/master/objects-prototypes) to Js objects & prototypes practical.
    
+
  
