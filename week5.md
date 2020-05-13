@@ -24,8 +24,19 @@
 * PLAN:
    * Research about variables and scope in Js and do the practical on closures.
 * EVIDENCE:
-   * [Link]() to js closures notes.
+   * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week5_notes.md) to js variables and scope notes.
    * [Link](https://github.com/mbrad26/java-script/tree/master/objects-prototypes) to Js objects & prototypes practical.
+
+#### Wednesday 13th may 2020
+
+* GOAL: 
+   * Learn about JS callbacks.
+* PLAN:
+   * Research about callbacks in Js.
+* EVIDENCE:
+   * [Link]() to js callbacks notes.
+
+
    
 
  
