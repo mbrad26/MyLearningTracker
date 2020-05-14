@@ -30,11 +30,11 @@
 #### Wednesday 13th may 2020
 
 * GOAL: 
-   * Learn about JS callbacks.
+   * Learn about JS 'this' keyword.
 * PLAN:
-   * Research about callbacks in Js.
+   * Research about 'this' keyword in Js.
 * EVIDENCE:
-   * [Link]() to js callbacks notes.
+   * [Link]() to Js 'this' notes.
 
 
    

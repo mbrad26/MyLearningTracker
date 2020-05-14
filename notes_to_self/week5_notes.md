@@ -261,3 +261,261 @@ SyntaxError: Identifier ‘VAR1’ has already been declared
 ### Immutability
 
 If we initialize a `const variable` with an **object** or an **array**, we will still be able to set the properties of the object and add and remove items to the array.
+
+
+# **'this' keyword**
+
+All functions in JavaScript have properties, just as objects have properties. 
+
+And when a function executes, it gets the `this` property — a variable with the **value of the object that invokes the function where `this` is used**.
+
+The `this` reference **ALWAYS** refers to (and holds the value of) an object and it is usually used inside a function or a method, although it can be used outside a function in the global scope. 
+
+When we use ```strict mode```, `this` holds the value of `undefined` in **global functions** and in **anonymous functions** that are not bound to any object.
+
+```
+var person = {
+      firstName   :"Penelope",
+      lastName    :"Barrymore",
+            // "this" will have the value of the person object because the person object will invoke showFullName ()
+      showFullName:function () {
+        console.log (this.firstName + " " + this.lastName);
+      }
+}
+
+person.showFullName (); // Penelope Barrymore
+```
+
+**`this`** is not assigned a value until **an object invokes the function** where this is defined.
+
+
+### **`this` in the global scope**
+
+In the global scope, when the code is executing in the browser, all global variables and functions are defined on the **window object**. 
+
+Therefore, when we use `this` in a global function, it refers to (and has the value of) the **global window object**.
+
+```
+var firstName = "Peter",
+lastName = "Ally";
+
+function showFullName () {
+
+            // "this" inside this function will have the value of the window object because the showFullName () function is defined in the global scope, just like the firstName and lastName
+
+  console.log (this.firstName + " " + this.lastName);
+}
+
+var person = {
+  firstName   :"Penelope",
+  lastName    :"Barrymore",
+  showFullName:function () {
+            // "this" on the line below refers to the person object, because the showFullName function will be invoked by person object.
+    console.log (this.firstName + " " + this.lastName);
+  }
+}
+            // window is the object that all global variables and functions are defined on, hence:
+            window.showFullName (); // Peter Ally
+
+showFullName (); // Peter Ally
+
+            // "this" inside the showFullName () method that is defined inside the person object still refers to the person object, hence:
+
+person.showFullName (); // Penelope Barrymore
+```
+### **Fix `this` when used in a method passed as a callback**
+
+```
+// We have a simple object with a clickHandler method that we want to use when a button on the page is clicked
+
+var user = {
+  data:[
+    {name:"T. Woods", age:37},
+    {name:"P. Mickelson", age:43}
+  ],
+  clickHandler:function (event) {
+    var randomNum = ((Math.random () * 2 | 0) + 1) - 1; // random number between 0 and 1
+
+    console.log (this.data[randomNum].name + " " + this.data[randomNum].age);
+  }
+}
+
+// The button is wrapped inside a jQuery $ wrapper, so it is now a jQuery object
+// And the output will be undefined because there is no data property on the button object
+
+$ ("button").click (user.clickHandler); // Cannot read property '0' of undefined
+```
+
+Since the button `$(“button”)` is an object on its own, and we are passing the `user.clickHandler` method to its `click()` method **as a callback**, we know that `this` inside our `user.clickHandler` method will no longer refer to the `user` object. 
+
+`this` will now refer to the object where the `user.clickHandler` method is executed because `this` is defined inside the `user.clickHandler` method. And the object that is invoking `user.clickHandler` is the button object — `user.clickHandler` will be executed inside the button object’s click method.
+
+**Solution to fix this when a method is passed as a callback function:**
+
+We can use the `Bind ()`, `Apply ()`, or `Call ()` method to specifically set the value of this.
+
+Instead of this line:
+
+```
+ $ ("button").click (user.clickHandler);
+```
+
+We have to bind the clickHandler method to the user object like this:
+
+```
+$("button").click (user.clickHandler.bind (user)); // P. Mickelson 43
+```
+
+### **Fix `this` inside closure**
+
+It is important to take note that `closures` cannot access the outer function’s `this` variable by using the `this` keyword because the `this` variable **is accessible only by the function itself**, not by inner functions.
+
+
+```
+var user = {
+  tournament:"The Masters",
+  data      :[
+    {name:"T. Woods", age:37},
+    {name:"P. Mickelson", age:43}
+    ],
+  clickHandler:function () {
+                // the use of this.data here is fine, because "this" refers to the user object, and data is a property on the user object.
+                
+      this.data.forEach (function (person) {
+
+                    // But here inside the anonymous function (that we pass to the forEach method), "this" no longer refers to the user object.
+                    // This inner function cannot access the outer function's "this"
+
+        console.log ("What is This referring to? " + this); //[object Window]
+        console.log (person.name + " is playing at " + this.tournament);
+
+                    // T. Woods is playing at undefined
+                    // P. Mickelson is playing at undefined
+      })
+  }
+}
+
+user.clickHandler(); // What is "this" referring to? [object Window]
+```
+
+`this` inside the anonymous function cannot access the outer function’s `this`, so it is bound to the global window object, when strict mode is not being used.
+
+**Solution to maintain this inside anonymous functions:**
+
+To fix the problem we use a common practice in JavaScript and set the `this` value to another variable before we enter the `forEach` method:
+
+```
+var user = {
+  tournament:"The Masters",
+  data      :[
+      {name:"T. Woods", age:37},
+      {name:"P. Mickelson", age:43}
+    ],
+  clickHandler:function (event) {
+
+                      // To capture the value of "this" when it refers to the user object, we have to set it to another variable here:
+                      // We set the value of "this" to theUserObj variable, so we can use it later
+
+    var theUserObj = this;
+
+    this.data.forEach (function (person) {
+                      // Instead of using this.tournament, we now use theUserObj.tournament
+        console.log (person.name + " is playing at " + theUserObj.tournament);
+    })
+  }
+}
+
+user.clickHandler();  // T. Woods is playing at The Masters
+                      //  P. Mickelson is playing at The Masters
+```
+
+### **Fix `this` when method is assigned to a variable**
+
+```
+            // This data variable is a global variable
+var data = [
+    {name:"Samantha", age:12},
+    {name:"Alexis", age:14}
+];
+
+  var user = {
+            // this data variable is a property on the user object
+    data    :[
+      {name:"T. Woods", age:37},
+      {name:"P. Mickelson", age:43}
+    ],
+    showData:function (event) {
+      var randomNum = ((Math.random () * 2 | 0) + 1) - 1; // random number between 0 and 1
+
+                // This line is adding a random person from the data array to the text field
+
+      console.log (this.data[randomNum].name + " " + this.data[randomNum].age);
+    }
+
+}
+           // Assign the user.showData to a variable
+var showUserData = user.showData;
+
+          // When we execute the showUserData function, the values printed to the console are from the global data array, not from the data array in the user object
+
+showUserData (); // Samantha 12 (from the global data array)
+```
+
+**Solution for maintaining this when method is assigned to a variable:**
+
+```
+          // Bind the showData method to the user object
+
+var showUserData = user.showData.bind (user);
+
+          // Now we get the value from the user object, because the this keyword is bound to the user object
+
+showUserData (); // P. Mickelson 43
+```
+
+### **Fix `this` when borrowing methods**
+
+```
+          // We have two objects. One of them has a method called avg () that the other doesn't have
+          // So we will borrow the (avg()) method
+
+var gameController = {
+    scores  :[20, 34, 55, 46, 77],
+    avgScore:null,
+    players :[
+      {name:"Tommy", playerID:987, age:23},
+      {name:"Pau", playerID:87, age:33}
+    ]
+}
+
+var appController = {
+    scores  :[900, 845, 809, 950],
+    avgScore:null,
+    avg     :function () {
+                var sumOfScores = this.scores.reduce (function (prev, cur, index, array) {
+                                      return prev + cur;
+                                  });
+                this.avgScore = sumOfScores / this.scores.length;
+             }
+}
+          // the gameController.avgScore property will be set to the average score from the appController object "scores" array
+          // Don't run this code, for it is just for illustration; we want the appController.avgScore to remain null
+
+gameController.avgScore = appController.avg();
+```
+
+The avg method’s `this` keyword will not refer to the `gameController` object, it will refer to the `appController` object because it is being invoked on the `appController`.
+
+**Solution for fixing this when borrowing methods:**
+
+```
+appController.avg.apply (gameController, gameController.scores);
+
+            // The avgScore property was successfully set on the gameController object, even though we borrowed the avg () method from the appController object
+
+console.log (gameController.avgScore); // 46.4
+
+            // appController.avgScore is still null; it was not updated, only gameController.avgScore was updated
+
+console.log (appController.avgScore); // null
+```
