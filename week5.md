@@ -34,7 +34,7 @@
 * PLAN:
    * Research about 'this' keyword in Js.
 * EVIDENCE:
-   * [Link]() to Js 'this' notes.
+   * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week5_notes.md) to Js 'this' notes.
 
 
    
