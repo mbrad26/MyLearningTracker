@@ -13,5 +13,5 @@
 * PLAN:
    * Research about `new` keyword in JS.
 * EVIDENCE:
-   * [Link]() to JS `new` notes.
+   * [Link](https://github.com/mbrad26/MyLearningTracker/blob/master/notes_to_self/week7_notes.md) to JS `new` notes.
  
