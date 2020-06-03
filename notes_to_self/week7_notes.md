@@ -91,6 +91,7 @@ var car1 = new Car('Eagle', 'Talon TSi', 1993, rand);
 var car2 = new Car('Nissan', '300ZX', 1992, ken);
 ```
 To find out the name of the owner of car2, you can access the following property:
+
 ```
 car2.owner.name
 ```
